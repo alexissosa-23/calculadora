@@ -1,0 +1,29 @@
+#calculator {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #display {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+  }
+  
+  .button, .operator, #equals {
+    width: 45px;
+    height: 45px;
+    margin: 2px;
+    font-size: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .operator {
+    background-color: #f0f0f0;
+  }
+  
